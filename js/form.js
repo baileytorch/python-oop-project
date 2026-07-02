@@ -206,3 +206,6 @@ async function hashPassword(password) {
     const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
     return hashHex;
 }
+
+// Validar Contraseña al escribir
+// https://www.google.com/search?q=jquery+validar+contraseña+segura+al+escribir+un+texto&client=opera&hs=beM&sca_esv=9e14c540528a302f&sxsrf=APpeQnvACidEdIOkbk7KoKvfcOqW5hm0gQ%3A1782840494465&ei=rvxDaqqCHJKf5OUP65iioAQ&oq=jquery+validar+contraseña+segura+al+escribir&gs_lp=Egxnd3Mtd2l6LXNlcnAiLWpxdWVyeSB2YWxpZGFyIGNvbnRyYXNlw7FhIHNlZ3VyYSBhbCBlc2NyaWJpcioCCAEyBRAhGKABMgUQIRigAUjUNVD8B1jjHXABeACQAQCYAZwBoAGdDKoBBDAuMTK4AQPIAQD4AQGYAgugAvALwgIFECEYnwXCAgcQIRgKGKABwgIEECEYFZgDAIgGAZIHBDAuMTGgB68xsgcEMC4xMbgH8AvCBwcwLjYuMy4yyAcygAgB&sclient=gws-wiz-serp
